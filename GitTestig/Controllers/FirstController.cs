@@ -8,7 +8,7 @@ namespace GitTestig.Controllers
 {
     public class FirstController : Controller
     {
-        int a;
+        int a,b;
         public IActionResult Index()
         {
             return View();
@@ -16,6 +16,7 @@ namespace GitTestig.Controllers
         public IActionResult AboutUs()
         {
              a = 10;
+            b=200019091;
             return View();
         }
     }
