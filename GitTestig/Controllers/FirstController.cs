@@ -18,5 +18,9 @@ namespace GitTestig.Controllers
              a = 10;
             return View();
         }
+        public IActionResult Master()
+        {
+            return View();
+        }
     }
 }
