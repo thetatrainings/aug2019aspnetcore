@@ -12,5 +12,9 @@ namespace GitTestig.Controllers
         {
             return View();
         }
+        public IActionResult AboutUs()
+        {
+            return View();
+        }
     }
 }
