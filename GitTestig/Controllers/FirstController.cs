@@ -18,5 +18,11 @@ namespace GitTestig.Controllers
              a = 10;
             return View();
         }
+       public IActionResult waleed()
+            {
+            return View();
+
+}           
+       
     }
 }
