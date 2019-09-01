@@ -23,5 +23,12 @@ namespace GitTestig.Controllers
         {
             return View();
         }
+
+        public IActionResult Abubakar()
+        {
+            a = 10;
+            return View();
+        }
+
     }
 }
