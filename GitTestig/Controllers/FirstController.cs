@@ -8,13 +8,14 @@ namespace GitTestig.Controllers
 {
     public class FirstController : Controller
     {
+        int a;
         public IActionResult Index()
         {
             return View();
         }
         public IActionResult AboutUs()
         {
-            int a = 10;
+             a = 10;
             return View();
         }
     }
