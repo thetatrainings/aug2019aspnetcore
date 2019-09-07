@@ -16,7 +16,7 @@ namespace GitTestig.Controllers
         }
         public IActionResult AboutUs()
         {
-             a = 10;
+             a = 30;
             b=200019091;
             return View();
         }
