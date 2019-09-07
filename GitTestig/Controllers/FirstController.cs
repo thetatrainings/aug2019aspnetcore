@@ -11,6 +11,7 @@ namespace GitTestig.Controllers
         int a,b;
         public IActionResult Index()
         {
+            int a=10;
             return View();
         }
         public IActionResult AboutUs()
